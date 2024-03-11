@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to weather center</title>
+</head>
+<body>
+    <div id="temperature">
+        <img src="https://assets-v2.lottiefiles.com/a/4833cb0e-1181-11ee-8d32-679b22f44387/1W4h9ya7Be.gif" alt="">
+        <h2>Current Temperature is </h2> <h2 id="temperature_measure"></h2>
+    </div>
+    <br>
+    <div id="temperature" style="background-color: #6daaee;">
+        <img src="https://cdn.pixabay.com/animation/2023/06/29/06/23/06-23-06-393_512.gif" alt="">
+        <h2>Current Wind is </h2> <h2 id="Wind"></h2>
+    </div>
+    <br>
+    <div id="temperature" style="background-color: #7360DF;">
+        <img src="https://i.pinimg.com/originals/2e/03/df/2e03df766596690fc4c87fd8b7159be5.gif" alt="">
+        <h2>Current Description is </h2> <h2 id="Description"></h2>
+    </div>
+    <style>
+        * {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        #temperature {
+            width: 98%;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            border-radius: 8px;
+            background-color: skyblue;
+            height: 150px;
+        }
+
+        #temperature img {
+            width: 100px;
+            height: 100px;
+            border-radius: 100px;
+            padding: 20px;
+        }
+        .tool {
+            color: white;
+            font-family: sans-serif;
+            margin-left: 5px;
+            border-radius: 5px;
+
+        }
+    </style>
+    <script src="jd.js"></script>
+</body>
+</html>
